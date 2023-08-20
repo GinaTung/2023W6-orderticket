@@ -9,6 +9,9 @@
 .img-fit{
     object-fit: cover; 
 }
+.img-position{
+    object-position: 0% 33%;
+}
 .img-explore-spacer{
     padding: 32px 56px;
     @include pad{
@@ -23,19 +26,39 @@
      height: 40px;
     }
 }
-.img-explore-pb{
-    padding-bottom: 12px;
-    @include pad-sm{
-        padding-bottom: 8px;
-    }
-}
 .btn-spacer{
     padding: 36px 40px;
     @include pad-sm{
         padding: 22px 30px;
     }
 }
-.card-header{
-    padding-bottom: 12px !important;
-    margin-bottom: 12px !important;
+.img-active-size{
+    width: 416px;
+    height: 255px;
 }
+.border-left-1{
+    border-left: 4px solid #000 !important;
+}
+.mt-60 {
+    margin-top: 60px;
+  }
+  .h2-transform {
+    transform: translate(-50%, -50%) rotate(-4deg);
+  }
+  li {
+    &:nth-child(2n) {
+        transform: rotate(2deg);
+    }
+    &:nth-child(3) {
+        transform: rotate(-2deg);
+    }
+  }
+  .item {
+    img {
+      object-fit: cover;
+      height: 274px;
+    }
+  }
+  .mb-60{
+    margin-bottom: 60px !important;
+  }
