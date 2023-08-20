@@ -1,12 +1,20 @@
+.navbar{
+  .pb-sm-5{
+    padding-bottom: 24px !important;
+  }
+}
 @media(max-width:576px){
+  .pm-0{
+    padding-bottom: 0 !important;
+  }
   .navbar{
-    .pb-sm-5{
-      padding-bottom: 24px !important;
+    .pb-3{
+      padding-bottom: 12px !important;
     }
   }
   .navbar-brand{
     h1{
-            display: none !important;
+      display: none !important;
     }
     .me-sm-4 {
         margin-right: 0px !important;
