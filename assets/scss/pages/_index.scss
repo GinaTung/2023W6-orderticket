@@ -45,7 +45,7 @@
   .h2-transform {
     transform: translate(-50%, -50%) rotate(-4deg);
   }
-  li {
+  .trans-card {
     &:nth-child(2n) {
         transform: rotate(2deg);
     }
@@ -61,4 +61,7 @@
   }
   .mb-60{
     margin-bottom: 60px !important;
+  }
+  .pt-60{
+    padding-top: 60px;
   }
