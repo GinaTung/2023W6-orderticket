@@ -65,3 +65,9 @@
   .pt-60{
     padding-top: 60px;
   }
+  
+  .fs-60{
+    @include pad-sm{
+      font-size: 60px;
+  }
+  }

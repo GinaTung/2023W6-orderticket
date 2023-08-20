@@ -1,7 +1,8 @@
-// core version + navigation, pagination modules:
-import Swiper from 'swiper';
-// import Swiper and modules styles
-import 'swiper/css';
+// import Swiper bundle with all modules installed
+import Swiper from 'swiper/bundle';
+
+// import styles bundle
+import 'swiper/css/bundle';
 
 const swiper = new Swiper(".mySwiper", {
     slidesPerView: "auto", 
@@ -12,4 +13,4 @@ const swiper = new Swiper(".mySwiper", {
     },
     loop: true,
     speed: 3000,
-  });
+});
