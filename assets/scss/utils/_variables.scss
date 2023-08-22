@@ -298,13 +298,13 @@ $cyans: (
 // fusv-enable
 
 // scss-docs-start theme-color-variables
-$primary:       #030303 !default;
-$secondary:     #FBFF22 !default;
+$primary:       #030303 !default;//custom
+$secondary:     #FBFF22 !default;//custom
 $success:       $green !default;
 $info:          $cyan !default;
 $warning:       $yellow !default;
-$danger:        #C96464 !default;
-$light:         #878787 !default;
+$danger:        #C96464 !default;//custom
+$light:         #878787 !default;//custom
 $dark:          $gray-900 !default;
 // scss-docs-end theme-color-variables
 
@@ -335,7 +335,7 @@ $escaped-characters: (
 // Quickly modify global styling by enabling or disabling optional features.
 
 $enable-caret:                true !default;
-$enable-rounded:              true !default;
+$enable-rounded:              false !default;//custom
 $enable-shadows:              false !default;
 $enable-gradients:            false !default;
 $enable-transitions:          true !default;
@@ -371,7 +371,7 @@ $gradient: linear-gradient(180deg, rgba($white, .15), rgba($white, 0)) !default;
 // You can add more entries to the $spacers map, should you need more variation.
 
 // scss-docs-start spacer-variables-maps
-$spacer: 1rem !default;
+$spacer: 1rem !default;//*custom
 $spacers: (
   0: 0,
   1: $spacer * .25,//4
@@ -403,8 +403,8 @@ $position-values: (
 //
 // Settings for the `<body>` element.
 
-$body-bg:                   $white !default;
-$body-color:                $gray-900 !default;
+$body-bg:                   #F3F1E5 !default;// *custom
+$body-color:                #030303 !default; // *custom
 $body-text-align:           null !default;
 
 // Links
@@ -412,7 +412,7 @@ $body-text-align:           null !default;
 // Style anchor elements.
 
 $link-color:                              $primary !default;
-$link-decoration:                         underline !default;
+$link-decoration:                         none !default;// *custom
 $link-shade-percentage:                   20% !default;
 $link-hover-color:                        shift-color($link-color, $link-shade-percentage) !default;
 $link-hover-decoration:                   null !default;
@@ -424,7 +424,7 @@ $stretched-link-z-index:                  1 !default;
 //
 // Style p element.
 
-$paragraph-margin-bottom:   1rem !default;
+$paragraph-margin-bottom:   0 !default;//custom
 
 
 // Grid breakpoints
@@ -512,7 +512,7 @@ $box-shadow-lg:               0 1rem 3rem rgba($black, .175) !default;
 $box-shadow-inset:            inset 0 1px 2px rgba($black, .075) !default;
 // scss-docs-end box-shadow-variables
 
-$component-active-color:      $white !default;
+$component-active-color:      $primary !default; //custom
 $component-active-bg:         $primary !default;
 
 // scss-docs-start caret-variables
@@ -545,7 +545,9 @@ $aspect-ratios: (
 
 // scss-docs-start font-variables
 // stylelint-disable value-keyword-case
-$font-family-sans-serif:      system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
+$font-family-sans-serif:'Yeseva One', 'Noto Sans TC', 'Noto Serif TC', system-ui, -apple-system, 'Segoe UI',
+Roboto, 'Helvetica Neue', 'Noto Sans', 'Liberation Sans', Arial, sans-serif, 'Apple Color Emoji',
+'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji' !default;//custom
 $font-family-monospace:       SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
 // stylelint-enable value-keyword-case
 $font-family-base:            var(--#{$prefix}font-sans-serif) !default;
@@ -580,7 +582,7 @@ $h6-font-size:                $font-size-base !default;//16
 // scss-docs-end font-variables
 
 // scss-docs-start font-sizes
-$font-sizes: (
+$font-sizes: (//*custom
   1: 64px,
   2: 48px,
   3: 32px,
@@ -593,7 +595,7 @@ $font-sizes: (
 // scss-docs-end font-sizes
 
 // scss-docs-start headings-variables
-$headings-margin-bottom:      $spacer * .5 !default;
+$headings-margin-bottom:      0 !default; //*custom
 $headings-font-family:        null !default;
 $headings-font-style:         null !default;
 $headings-font-weight:        500 !default;
@@ -602,7 +604,7 @@ $headings-color:              null !default;
 // scss-docs-end headings-variables
 
 // scss-docs-start display-headings
-$display-font-sizes: (
+$display-font-sizes: ( 
   1: 5rem,
   2: 4.5rem,
   3: 4rem,
