@@ -26,12 +26,13 @@
 @import "component/icon";
 @import "base/base";
 
-@import './layout/container';
+// @import './layout/container';
 @import './layout/header.scss';
 @import './layout/footer.scss';
 
 
 @import './pages/index.scss';
+@import './pages/explore-active';
 @import './component/swiper';
 
 @import "../../node_modules/bootstrap";

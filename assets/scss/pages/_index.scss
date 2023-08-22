@@ -45,7 +45,8 @@
 .mt-60 {
     margin-top: 60px;
   }
-  .h2-transform {
+  // 以下為相簿區塊
+  .albums-tag {
     transform: translate(-50%, -50%) rotate(-4deg);
   }
   .trans-card {
@@ -56,9 +57,10 @@
         transform: rotate(-2deg);
     }
   }
-  .item {
-    img {
-      object-fit: cover;
+  .pic {
+    object-fit: cover;
+    height: 291px;
+    @media(min-width:576px) {
       height: 274px;
     }
   }
