@@ -3,7 +3,7 @@
     padding-bottom: 24px !important;
   }
 }
-@media(max-width:576px){
+@media(max-width:768px){
   .pm-0{
     padding-bottom: 0 !important;
   }
@@ -39,9 +39,8 @@
 }
 .input-size{
   width: 284px;
-  @include pad{
+  @include pc-lg{
     width: 168px !important;
-    height: 40px;
   }
 }
 .btn-p-size{
