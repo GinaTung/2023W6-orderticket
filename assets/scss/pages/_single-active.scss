@@ -1,4 +1,4 @@
-h2 {
+.single-active-h2 {
   font-size: 22px;
 }
 .date {
@@ -15,7 +15,7 @@ h2 {
 }
 
 @media (min-width: 768px) {
-  h2 {
+  .single-active-h2 {
     margin-bottom: 126px !important;
     font-size: 48px;
   }
@@ -28,13 +28,6 @@ h2 {
     top: 50%;
   }
 }
-@media (min-width: 992px) {
-  h2 {
-    margin-bottom: 126px !important;
-  }
-
-}
-
 
 .tag-checkbox {
     // 隱藏 checkbox
