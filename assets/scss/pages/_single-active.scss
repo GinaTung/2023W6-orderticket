@@ -13,14 +13,13 @@
   transform: translateX(-50%) rotate(120deg);
   background-color: black;
 }
-
+.img-height{
+  max-height:600px !important;
+}
 @media (min-width: 768px) {
   .single-active-h2 {
-    margin-bottom: 126px !important;
-    font-size: 48px;
-  }
-  .date {
-    padding: 48px 44px;
+    margin-bottom: 80px !important;
+    font-size: 32px;
   }
   .time::before {
     width: 100px;
@@ -28,7 +27,20 @@
     top: 50%;
   }
 }
-
+@media (min-width: 992px) {
+  .single-active-h2 {
+    margin-bottom: 96px !important;
+  }
+  .date {
+    padding: 48px 44px;
+  }
+}
+@media (min-width: 1200px) {
+  .single-active-h2 {
+    margin-bottom: 126px !important;
+    font-size: 48px;
+  }
+}
 .tag-checkbox {
     // 隱藏 checkbox
     display: none;
