@@ -13,9 +13,7 @@
   transform: translateX(-50%) rotate(120deg);
   background-color: black;
 }
-.img-height{
-  max-height:600px !important;
-}
+
 @media (min-width: 768px) {
   .single-active-h2 {
     margin-bottom: 80px !important;
@@ -39,6 +37,9 @@
   .single-active-h2 {
     margin-bottom: 126px !important;
     font-size: 48px;
+  }
+  .img-height{
+    max-height:632px !important;
   }
 }
 .tag-checkbox {
