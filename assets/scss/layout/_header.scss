@@ -49,3 +49,11 @@
     padding: 12px !important;
   }
 }
+.nav-position{
+  position: absolute;
+  background: #F3F1E5;
+  top: 68px;
+  left:0;
+  max-width: 100%;
+  z-index: 2;
+}
