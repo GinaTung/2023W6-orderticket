@@ -1,5 +1,6 @@
 # 7TAO活動訂票網
-![7TAO活動訂票網](https://github.com/GinaTung/2023W6-orderticket/assets/88545191/38624b8c-b87c-46ae-8d23-dc7c589b8383)
+![7TAO活動訂票網](https://github.com/GinaTung/2023W6-orderticket/assets/88545191/57d8981c-fd3d-4c56-bd10-edffc6fe6828)
+
 
 ## Node.js 版本
   - 專案的 Node.js 版本需為 v16 以上
